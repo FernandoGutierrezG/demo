@@ -7,18 +7,16 @@
 
 
 void imprimir(int item);
-void pruebaRead(int num);
-int pruebaMultiplicar(int numX);
+int leeMultiplica();
 
 void main()
 {
 	
-	int x, y;
+	int x;
 	printf("Hello World");
 	prinf("Dame un numero:");
-	x = pruebaRead();
-	pruebaMultiplicar(x);
-	imprimir(y);
+	x = leeMultiplica;
+	imprimir(x);
 	getch();
 }
 
@@ -29,15 +27,12 @@ void imprimir(int item)
 }
 
 
-int pruebaRead()
+int leeMultiplica()
 {
 	int item;
 	scanf("%d",&item);
-	return item;
+	return item * 5;
 }
 
-int pruebaMultilplicar(int numX)
-{
-	return numX*5;
-}
+
 
