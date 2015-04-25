@@ -2,6 +2,7 @@
 // Ejemplo para probar Git
 
 #include <stdio.h>
+#include <stdlib.h>
 
 
 
