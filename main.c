@@ -6,8 +6,13 @@
 
 
 
-void main(void)
+void main()
 {
-printf("Hello World");
-getch();
+	int x, y;
+	printf("Hello World");
+	prinf("Dame un numero:");
+	scanf("%d",&x);
+	y=x*3;
+	prinf("El numero por tres es %d:",y);
+	getch();
 }
