@@ -7,6 +7,7 @@
 
 
 void imprimir(int item);
+void pruebaRead(int num);
 
 void main()
 {
@@ -14,7 +15,7 @@ void main()
 	int x, y;
 	printf("Hello World");
 	prinf("Dame un numero:");
-	scanf("%d",&x);
+	x = pruebaRead();
 	y=x*3;
 	imprimir(y);
 	getch();
@@ -25,3 +26,13 @@ void imprimir(int item)
 {
 	printf("La values es:%d",item);
 }
+
+
+int pruebaRead()
+{
+	int item;
+	scanf("%d",&item);
+	return item;
+}
+
+
