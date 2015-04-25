@@ -8,6 +8,7 @@
 
 void imprimir(int item);
 void pruebaRead(int num);
+int pruebaMultiplicar(int numX);
 
 void main()
 {
@@ -16,7 +17,7 @@ void main()
 	printf("Hello World");
 	prinf("Dame un numero:");
 	x = pruebaRead();
-	y=x*3;
+	pruebaMultiplicar(x);
 	imprimir(y);
 	getch();
 }
@@ -35,4 +36,8 @@ int pruebaRead()
 	return item;
 }
 
+int pruebaMultilplicar(int numX)
+{
+	return numX*5;
+}
 
